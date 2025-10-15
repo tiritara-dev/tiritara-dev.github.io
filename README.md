@@ -1,1 +1,1 @@
-# tiritara-dev.github.io
+# tiritara
