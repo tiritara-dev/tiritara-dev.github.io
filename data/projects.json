@@ -1,6 +1,15 @@
 {
   "apps": [
     {
+      "slug": "redsheet",
+      "name": "赤シート",
+      "tagline": "教材に重ねて答えを隠す、スマホの赤下敷き",
+      "genre": "life",
+      "category": "教育",
+      "play": "com.tiritara.redsheet",
+      "ios": "6820861336"
+    },
+    {
       "slug": "dazen",
       "name": "DaZen",
       "tagline": "バイノーラルビートと自然のノイズで、静かに瞑想",
@@ -69,6 +78,7 @@
       "tagline": "傾けると絵が変わる、懐かしいレンチキュラーをスマホで",
       "genre": "life",
       "category": "エンタメ",
+      "play": "com.tiritara.lenticular",
       "ios": "6816585891"
     },
     {
@@ -118,7 +128,8 @@
       "tagline": "シンプルなルールに奥深い戦略。CPUともみんなとも",
       "genre": "game",
       "category": "ボードゲーム",
-      "play": "com.tiritara.flightchess"
+      "play": "com.tiritara.flightchess",
+      "ios": "6825797152"
     },
     {
       "slug": "runfast",
@@ -134,7 +145,8 @@
       "tagline": "4枚のカードと四則演算で「24」を作る脳トレ",
       "genre": "game",
       "category": "パズル",
-      "play": "com.tiritara.a24p"
+      "play": "com.tiritara.a24p",
+      "ios": "6822012450"
     },
     {
       "slug": "chinese-chess",
@@ -142,7 +154,8 @@
       "tagline": "AIと対局できる、シンプルな中国象棋",
       "genre": "game",
       "category": "ボードゲーム",
-      "play": "com.tiritara.chinesechess"
+      "play": "com.tiritara.chinesechess",
+      "ios": "6822314538"
     }
   ],
   "web": [
