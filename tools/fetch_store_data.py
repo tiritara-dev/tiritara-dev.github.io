@@ -82,6 +82,12 @@ def main():
         if app.get("ios"):
             entry["ios"] = ios_listing(app["ios"])
 
+        # 取得元が変わると拡張子も変わる（iOS の jpg → Play の webp など）ので、古い画像は消してから保存する
+        if out.is_dir():
+            for old in out.iterdir():
+                if old.is_file():
+                    old.unlink()
+
         if "play" in entry and entry["play"]["icon"]:
             entry["icon"] = save(entry["play"]["icon"] + "=s256-rw", out / "icon.webp")
         else:
